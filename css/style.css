@@ -18,7 +18,7 @@
 aside[role="complementary"]{
 	text-align: right;
 	color: 	#00CED1;
-	word-break: break-all;
+	//word-break: break-all;
 }
 
 div[role="main"]{
@@ -30,15 +30,15 @@ div[role="main"], nav, aside{
 }
 
 .clientes{
-	height: 300px;
+	height: 400px;
 }
 
 .portifolio{
-	height: 300px;
+	height: 400px;
 }
 
 .projetos{
-	height: 300px;
+	height: 400px;
 }
 
 .be_red{
@@ -47,4 +47,18 @@ div[role="main"], nav, aside{
 
 .be_bold{
 	font-weight: bold;
+}
+
+.vertical_space{
+	line-height: 100px;
+}
+
+.box{
+	float: left;
+	width: 205px;
+	height: 180px;
+}
+
+.box:hover{
+	border: 2px #ddd;
 }
