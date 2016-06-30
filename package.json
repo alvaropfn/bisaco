@@ -1,0 +1,23 @@
+{
+  "name": "bisaco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaropfn/bisaco.git"
+  },
+  "author": "alvaropfn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaropfn/bisaco/issues"
+  },
+  "homepage": "https://github.com/alvaropfn/bisaco#readme",
+  "dependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

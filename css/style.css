@@ -17,6 +17,7 @@
 aside[role="complementary"]{
 	text-align: right;
 	color: 	#00CED1;
+	//word-break: break-all;
 }
 
 div[role="main"]{
@@ -52,28 +53,27 @@ div[role="main"], nav, aside{
 	line-height: 100px;
 }
 
-.float_box{
+.banner_casa{
+	margin-left: 10px;
+}
+
+.box_small:hover{
+
+	border-top: 3px;
+	border-left: 3px;
+	border-bottom: 4px;
+	border-right: 3px;
+	border: solid #ddd;
+}
+
+.box_small{
 	float: left;
 	width: 205px;
 	height: 180px;
-	//margin: 2px;
 }
 
-.fill_red{
-	background-color: red;
-}
-.fill_blue{
-	background-color: blue;
-}
-.fill_yellow{
-	background-color: yellow;
-}
-.fill_orange{
-	background-color: orange;
-}
-.fill_green{
-	background-color: green;
-}
-.fill_cyan{
-	background-color: cyan;
+.box_long{
+	float: left;
+	width: 405px;
+	height: 260px;
 }
