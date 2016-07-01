@@ -57,7 +57,7 @@ div[role="main"], nav, aside{
 	margin-left: 10px;
 }
 
-.box_small:hover{
+.box_small:hover .box_large:hover{
 
 	border-top: 3px;
 	border-left: 3px;
